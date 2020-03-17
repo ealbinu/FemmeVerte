@@ -1,0 +1,190 @@
+$maincol: #F1DDD8
+
+*
+    padding: 0
+    margin: 0
+body
+    font-family: 'Montserrat', sans-serif
+header
+    position: relative
+    overflow: hidden
+    .kenburns
+        width: 100%
+        bottom: 0
+        left: 0
+        position: absolute
+        transform-origin: bottom left
+        z-index: -1
+        @media (min-width: 1360px)
+            animation: kenburns 40s ease infinite
+        @media (max-width: 1359px)
+            animation: kenburns-md 40s ease infinite
+        @media (max-width: 1068px)
+            animation: kenburns-sm 40s ease infinite
+            left: -20%
+        @media (max-width: 760px)
+            animation: kenburns-xs 40s ease infinite
+            left: -50%
+        @media (max-width: 592px)
+            display: none
+    @media (max-width: 592px)
+        background-image: url(img/femme-verte-a.jpg)
+        background-position: 40%
+
+
+.box
+    min-height: 200px
+
+
+.story
+    margin-top: -1px
+    background-image: url(img/femme-verte-b.jpg)
+    background-size: cover
+    background-position: center
+    p
+        margin: 20px 0
+        color: $maincol
+        font-size: 0.9rem
+
+.slider
+    background-image: url(img/femme-verte-d.jpg)
+    background-size: cover
+    background-position: center
+    margin-bottom: 0 !important
+    .slide1
+        background-image: url(img/femme-verte-c.jpg)
+        background-size: cover
+        background-position: right
+        padding: 80px 0
+        opacity: 0
+        transition: all 0.3s
+    .slick-active
+        .slide1
+            opacity: 1
+            transition: all 0.2s
+    .slidebox
+        background: rgba(#537D52,0.9)
+        margin-left: 10px
+        .border
+            border: 1px solid #fff
+            border-left: 0
+            margin: 20px 10px 20px 0
+            padding: 60px
+            color: #fff
+            position: relative
+            p
+                margin: 20px 0
+                font-size: 0.9rem
+                strong
+                    color: #fff
+            .ico
+                max-width: 60px
+            .points p
+                margin: 5px 0
+            .perfume
+                position: absolute
+                right: -120px
+                bottom: 80px
+                width: 240px
+                @media (max-width:768px)
+                    position: static
+                    margin: 0 auto
+    .slick-dots
+        bottom: 20px
+        li.slick-active button:before
+            background: #fff
+        li button:before
+            border-radius: 50%
+            border: 2px solid #fff
+            color: transparent
+            width: 10px
+            height: 10px
+
+
+.gal
+    background-image: url(img/femme-verte-e.jpg)
+    background-size: cover
+    background-position: center
+    .box
+        background-size: cover
+        background-position: top center
+        border-radius: 0
+        &.g1
+            background-image: url(img/gal1.jpg)
+        &.g2
+            background-image: url(img/gal2.jpg)
+        &.g3
+            background-image: url(img/gal3.jpg)
+        &.g4
+            background-image: url(img/gal4.jpg)
+        &.g5
+            background-image: url(img/gal5.jpg)
+        &.g6
+            background-image: url(img/gal6.jpg)
+        &.g7
+            background-image: url(img/gal7.jpg)
+    @media (max-width:768px)
+        .is-6.is-vertical
+            width: 50%
+        .is-mobile
+            display: flex
+footer
+    margin-top: 80px
+    .footlogo
+        margin-bottom: 40px
+    p
+        color: #fff
+    hr
+        max-width: 200px
+        margin: 10px auto
+    .deventa
+        margin-top: 40px
+        img
+            max-width: 140px
+            margin: 0 auto
+
+// ####################
+// MAINBANNER
+.carlocorintologo
+    width: 100%
+    max-width: 420px
+    margin-bottom: -60px
+    margin-top: 40px
+.femmevertelogo
+    width: 100%
+    max-width: 520px
+.femmevertebottle
+    width: 100%
+    max-width: 360px
+
+
+
+@-webkit-keyframes kenburns
+    0%
+        transform-origin: top left
+        transform: scale(1.05)
+    50% 
+        transform: scale(1.2)
+    100%
+        transform: scale(1.05)
+@-webkit-keyframes kenburns-md
+    0%
+        transform: scale(1.3)
+    50% 
+        transform: scale(1.4)
+    100%
+        transform: scale(1.3)
+@-webkit-keyframes kenburns-sm
+    0%
+        transform: scale(1.5)
+    50% 
+        transform: scale(1.6)
+    100%
+        transform: scale(1.5)
+@-webkit-keyframes kenburns-xs
+    0%
+        transform: scale(2.4)
+    50% 
+        transform: scale(2.5)
+    100%
+        transform: scale(2.4)

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Femme Verte Carlo Corinto
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css")
+        link(rel="stylesheet", href="app/app.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Montserrat&display=swap")
+        link(rel="stylesheet", href="https://unpkg.com/aos@next/dist/aos.css")
+    body
+        header
+            img(src="app/img/femme-verte-a.jpg", alt="Femme Verte").kenburns
+            .columns
+                .column.is-5.is-offset-6.has-text-centered
+                    img(src="app/img/carlo-corinto.png" data-aos="fade-in" alt="Carlo Corinto").carlocorintologo
+                    img(src="app/img/femme-verte.png" data-aos="fade-in" alt="Femme Verte" data-aos-delay="300").femmevertelogo
+                    img(src="app/img/carlo-corinto-femme-verte.png" alt="Carlo Corinto Femme Verte" data-aos="fade-in" data-aos-delay="600" data-aos-mirror="true" data-aos-duration="1400").femmevertebottle
+
+        section.section.story: .container
+            .columns
+                .column.has-text-centered
+                    img(src="app/img/carlo-corinto-imag.png" data-aos="fade-in")
+                    p Según el mito filipino, el hermoso y floreciente árbol de Ylang Ylang surgió cuando 'Ilang'; una hermosa niña, se enamora de un jóven con el que no debía casarse. Antes de que pudieran estar juntos, ella se transforma en un árbol (en algunas versiones es antes y en otras después de su muerte), al ver este acontecimiento su enamorado llora por ella, diciéndo: '¡Ilang! ¡Ilang!'. Ylang proviene del término tagalo 'ilang-ilan' que significa raro. #[br] Ylang Ylang a veces se traduce como "flor de flores". ¡Simboliza la rareza del amor!.
+
+        section.slider
+            div.slide1
+                .columns: .column.is-6.is-10-tablet.is-6-desktop.slidebox: .border
+                    img(src="app/img/carlo-corinto-femme-verte-txt.png", alt="Carlo Corinto Femme Verte")
+                    p Encantadora, naturaly única; tal como las flores en la padrera, así es la mujer Femme Verte. Una mujer con la elegante sencillez de la naturaleza; fesca, espontánea y refinada.
+                    p La naturaleza nos regala, día tras día, retratos de lo que es la auténtica belleza.
+                    .columns.is-mobile.is-vcentered.points(data-aos="fade-in")
+                        .column.is-2: img(src="app/img/ico-salida.png", alt="Notas de Salida").ico
+                        .column.is-8
+                            p #[strong NOTAS DE SALIDA]
+                            p Bergamota Italiana, Naranja Verde y Cassis
+                    .columns.is-mobile.is-vcentered.points(data-aos="fade-in" data-aos-delay="100")
+                        .column.is-2: img(src="app/img/ico-corazon.png", alt="Notas de Corazón").ico
+                        .column.is-8
+                            p #[strong NOTAS DE CORAZÓN]
+                            p Absolutamente de Jazmín, Infusión de Ylang y Muguet
+                    .columns.is-mobile.is-vcentered.points(data-aos="fade-in" data-aos-delay="200")
+                        .column.is-2: img(src="app/img/ico-fondo.png", alt="Notas de Fondo").ico
+                        .column.is-8
+                            p #[strong NOTAS DE FONDO]
+                            p Veriver, Patchouli y Musgo
+                    img(src="app/img/carlo-corinto-botella.png", alt="Femme Verte" data-aos="fade-in" data-aos-mirror="true" data-aos-duration="1400").perfume
+            div.slide2
+
+        section.section.gal: .container
+            .tile.is-ancestor
+                .tile.is-6.is-mobile
+                    .tile.is-parent.is-vertical.is-6
+                        .tile.is-child.box.g2(data-aos="fade-in" data-aos-delay="50")
+                        .tile.is-child.box.g3(data-aos="fade-in" data-aos-delay="100")
+                        .tile.is-child.box.g4(data-aos="fade-in" data-aos-delay="150")
+                    .tile.is-parent.is-vertical.is-6
+                        .tile.is-child.box.g5(data-aos="fade-in" data-aos-delay="200")
+                        .tile.is-child.box.g6(data-aos="fade-in" data-aos-delay="250")
+                        .tile.is-child.box.g7(data-aos="fade-in" data-aos-delay="300")
+                .tile.is-parent
+                    .tile.is-child.box.g1(data-aos="fade-in" data-aos-duration="1000")
+            footer
+                .columns
+                    .column.has-text-centered
+                        img(src="app/img/carlo-corinto-paris.png").footlogo
+                        p.is-size-5 PUNTOS DE VENTA
+                        hr
+                        p.is-size-body2 DE VENTA EN TIENDAS DEPARTAMENTALES
+                .columns.is-vcentered.deventa.has-text-centered
+                    .column: img(src="app/img/carlo-corinto-palacio-de-hierro.png", alt="Palacio de Hierro")
+                    .column: img(src="app/img/carlo-corinto-liverpool.png", alt="Liverpool")
+                    .column: img(src="app/img/carlo-corinto-suburbia.png", alt="Suburbia")
+                    .column: img(src="app/img/carlo-corinto-sears.png", alt="Sears")
+                    .column: img(src="app/img/carlo-corinto-sanborns.png", alt="Sanborns")
+                
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js")
+        script(src="https://unpkg.com/aos@next/dist/aos.js")
+        script(src="app/app.js")

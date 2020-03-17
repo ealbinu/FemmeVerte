@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+header {
+  position: relative;
+  overflow: hidden; }
+  header .kenburns {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transform-origin: bottom left;
+    z-index: -1; }
+    @media (min-width: 1360px) {
+      header .kenburns {
+        animation: kenburns 40s ease infinite; } }
+    @media (max-width: 1359px) {
+      header .kenburns {
+        animation: kenburns-md 40s ease infinite; } }
+    @media (max-width: 1068px) {
+      header .kenburns {
+        animation: kenburns-sm 40s ease infinite;
+        left: -20%; } }
+    @media (max-width: 760px) {
+      header .kenburns {
+        animation: kenburns-xs 40s ease infinite;
+        left: -50%; } }
+    @media (max-width: 592px) {
+      header .kenburns {
+        display: none; } }
+  @media (max-width: 592px) {
+    header {
+      background-image: url(img/femme-verte-a.jpg);
+      background-position: 40%; } }
+
+.box {
+  min-height: 200px; }
+
+.story {
+  margin-top: -1px;
+  background-image: url(img/femme-verte-b.jpg);
+  background-size: cover;
+  background-position: center; }
+  .story p {
+    margin: 20px 0;
+    color: #F1DDD8;
+    font-size: 0.9rem; }
+
+.slider {
+  background-image: url(img/femme-verte-d.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0 !important; }
+  .slider .slide1 {
+    background-image: url(img/femme-verte-c.jpg);
+    background-size: cover;
+    background-position: right;
+    padding: 80px 0;
+    opacity: 0;
+    transition: all 0.3s; }
+  .slider .slick-active .slide1 {
+    opacity: 1;
+    transition: all 0.2s; }
+  .slider .slidebox {
+    background: rgba(83, 125, 82, 0.9);
+    margin-left: 10px; }
+    .slider .slidebox .border {
+      border: 1px solid #fff;
+      border-left: 0;
+      margin: 20px 10px 20px 0;
+      padding: 60px;
+      color: #fff;
+      position: relative; }
+      .slider .slidebox .border p {
+        margin: 20px 0;
+        font-size: 0.9rem; }
+        .slider .slidebox .border p strong {
+          color: #fff; }
+      .slider .slidebox .border .ico {
+        max-width: 60px; }
+      .slider .slidebox .border .points p {
+        margin: 5px 0; }
+      .slider .slidebox .border .perfume {
+        position: absolute;
+        right: -120px;
+        bottom: 80px;
+        width: 240px; }
+        @media (max-width: 768px) {
+          .slider .slidebox .border .perfume {
+            position: static;
+            margin: 0 auto; } }
+  .slider .slick-dots {
+    bottom: 20px; }
+    .slider .slick-dots li.slick-active button:before {
+      background: #fff; }
+    .slider .slick-dots li button:before {
+      border-radius: 50%;
+      border: 2px solid #fff;
+      color: transparent;
+      width: 10px;
+      height: 10px; }
+
+.gal {
+  background-image: url(img/femme-verte-e.jpg);
+  background-size: cover;
+  background-position: center; }
+  .gal .box {
+    background-size: cover;
+    background-position: top center;
+    border-radius: 0; }
+    .gal .box.g1 {
+      background-image: url(img/gal1.jpg); }
+    .gal .box.g2 {
+      background-image: url(img/gal2.jpg); }
+    .gal .box.g3 {
+      background-image: url(img/gal3.jpg); }
+    .gal .box.g4 {
+      background-image: url(img/gal4.jpg); }
+    .gal .box.g5 {
+      background-image: url(img/gal5.jpg); }
+    .gal .box.g6 {
+      background-image: url(img/gal6.jpg); }
+    .gal .box.g7 {
+      background-image: url(img/gal7.jpg); }
+  @media (max-width: 768px) {
+    .gal .is-6.is-vertical {
+      width: 50%; }
+    .gal .is-mobile {
+      display: flex; } }
+
+footer {
+  margin-top: 80px; }
+  footer .footlogo {
+    margin-bottom: 40px; }
+  footer p {
+    color: #fff; }
+  footer hr {
+    max-width: 200px;
+    margin: 10px auto; }
+  footer .deventa {
+    margin-top: 40px; }
+    footer .deventa img {
+      max-width: 140px;
+      margin: 0 auto; }
+
+.carlocorintologo {
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: -60px;
+  margin-top: 40px; }
+
+.femmevertelogo {
+  width: 100%;
+  max-width: 520px; }
+
+.femmevertebottle {
+  width: 100%;
+  max-width: 360px; }
+
+@-webkit-keyframes kenburns {
+  0% {
+    transform-origin: top left;
+    transform: scale(1.05); }
+  50% {
+    transform: scale(1.2); }
+  100% {
+    transform: scale(1.05); } }
+
+@-webkit-keyframes kenburns-md {
+  0% {
+    transform: scale(1.3); }
+  50% {
+    transform: scale(1.4); }
+  100% {
+    transform: scale(1.3); } }
+
+@-webkit-keyframes kenburns-sm {
+  0% {
+    transform: scale(1.5); }
+  50% {
+    transform: scale(1.6); }
+  100% {
+    transform: scale(1.5); } }
+
+@-webkit-keyframes kenburns-xs {
+  0% {
+    transform: scale(2.4); }
+  50% {
+    transform: scale(2.5); }
+  100% {
+    transform: scale(2.4); } }
