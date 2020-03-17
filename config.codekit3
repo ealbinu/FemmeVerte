@@ -355,6 +355,24 @@
 		"oF": 2,
 		"oS": 0
 		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/favicon.png": {
+		"ft": 32768,
+		"iS": 2838,
+		"oA": 0,
+		"oAP": "\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
