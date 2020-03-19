@@ -55,6 +55,9 @@ header {
   background-size: cover;
   background-position: center;
   margin-bottom: 0 !important; }
+  @media (max-width: 768px) {
+    .slider {
+      background-image: url(img/femme-verte-d-mobile.jpg); } }
   .slider .slide1 {
     background-image: url(img/femme-verte-c.jpg);
     background-size: cover;
@@ -68,6 +71,9 @@ header {
   .slider .slidebox {
     background: rgba(83, 125, 82, 0.9);
     margin-left: 10px; }
+    @media (max-width: 480px) {
+      .slider .slidebox {
+        margin-left: 0; } }
     .slider .slidebox .border {
       border: 1px solid #fff;
       border-left: 0;
@@ -75,6 +81,11 @@ header {
       padding: 60px;
       color: #fff;
       position: relative; }
+      @media (max-width: 480px) {
+        .slider .slidebox .border {
+          padding: 10px;
+          border-left: 1px solid #fff;
+          margin: 10px; } }
       .slider .slidebox .border p {
         margin: 20px 0;
         font-size: 0.9rem; }
@@ -82,6 +93,9 @@ header {
           color: #fff; }
       .slider .slidebox .border .ico {
         max-width: 60px; }
+        @media (max-width: 480px) {
+          .slider .slidebox .border .ico {
+            max-width: 36px; } }
       .slider .slidebox .border .points p {
         margin: 5px 0; }
       .slider .slidebox .border .perfume {
@@ -93,6 +107,9 @@ header {
           .slider .slidebox .border .perfume {
             position: static;
             margin: 0 auto; } }
+        @media (max-width: 480px) {
+          .slider .slidebox .border .perfume {
+            display: none; } }
   .slider .slick-dots {
     bottom: 20px; }
     .slider .slick-dots li.slick-active button:before {
@@ -160,6 +177,10 @@ footer {
 .femmevertebottle {
   width: 100%;
   max-width: 360px; }
+  @media (max-width: 480px) {
+    .femmevertebottle {
+      max-width: 200px;
+      margin: 80px 0; } }
 
 @-webkit-keyframes kenburns {
   0% {

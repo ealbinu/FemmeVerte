@@ -49,6 +49,28 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/img\/_femme-verte-a.jpg": {
+		"ft": 16384,
+		"iS": 393888,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/img\/_femme-verte-a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/_femme-verte-c.jpg": {
+		"ft": 16384,
+		"iS": 428849,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/img\/_femme-verte-c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/app\/img\/carlo-corinto-botella.png": {
 		"ft": 32768,
 		"iS": 196906,
@@ -172,13 +194,13 @@
 		},
 	"\/app\/img\/femme-verte-a.jpg": {
 		"ft": 16384,
-		"iS": 393888,
+		"iS": 326475,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/app\/img\/femme-verte-a.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/img\/femme-verte-b.jpg": {
@@ -194,10 +216,21 @@
 		},
 	"\/app\/img\/femme-verte-c.jpg": {
 		"ft": 16384,
-		"iS": 428849,
+		"iS": 299360,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/app\/img\/femme-verte-c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/femme-verte-d-mobile.jpg": {
+		"ft": 16384,
+		"iS": 533813,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/img\/femme-verte-d-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
