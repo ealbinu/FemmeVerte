@@ -168,11 +168,16 @@ footer {
   width: 100%;
   max-width: 420px;
   margin-bottom: -60px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-right: -5%; }
+  @media (max-width: 480px) {
+    .carlocorintologo {
+      margin-bottom: -50px; } }
 
 .femmevertelogo {
   width: 100%;
-  max-width: 520px; }
+  max-width: 520px;
+  margin-right: -5%; }
 
 .femmevertebottle {
   width: 100%;
