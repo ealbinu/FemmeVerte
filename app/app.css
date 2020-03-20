@@ -13,7 +13,7 @@ header {
     bottom: 0;
     left: 0;
     position: absolute;
-    transform-origin: bottom left;
+    transform-origin: top left;
     z-index: -1; }
     @media (min-width: 1360px) {
       header .kenburns {
@@ -36,6 +36,9 @@ header {
     header {
       background-image: url(img/femme-verte-a.jpg);
       background-position: 40%; } }
+  @media (max-height: 700px) {
+    header {
+      transform-origin: top left; } }
 
 .box {
   min-height: 200px; }
@@ -164,6 +167,12 @@ footer {
       max-width: 140px;
       margin: 0 auto; }
 
+.headimgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 .carlocorintologo {
   width: 100%;
   max-width: 420px;
@@ -173,23 +182,31 @@ footer {
   @media (max-width: 480px) {
     .carlocorintologo {
       margin-bottom: -50px; } }
+  @media (max-height: 680px) {
+    .carlocorintologo {
+      max-width: 380px; } }
 
 .femmevertelogo {
   width: 100%;
   max-width: 520px;
   margin-right: -5%; }
+  @media (max-height: 680px) {
+    .femmevertelogo {
+      max-width: 420px; } }
 
 .femmevertebottle {
   width: 100%;
-  max-width: 360px; }
+  max-width: 320px; }
   @media (max-width: 480px) {
     .femmevertebottle {
       max-width: 200px;
       margin: 80px 0; } }
+  @media (max-height: 680px) {
+    .femmevertebottle {
+      max-width: 200px; } }
 
 @-webkit-keyframes kenburns {
   0% {
-    transform-origin: top left;
     transform: scale(1.05); }
   50% {
     transform: scale(1.2); }
